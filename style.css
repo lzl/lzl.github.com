@@ -1,0 +1,105 @@
+﻿body {
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei" !important;
+  font-size: 8.5pt;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #222222;
+}
+
+a:visited {
+  color: #444444;
+}
+
+.button {
+  clear: both;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.button a {
+  padding: 5px 10px;
+  border: 1px solid #333333;
+  text-decoration: none;
+  background-color: #333333;
+  color: white;
+  border-radius: 4px 4px;
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+}
+
+.button a:hover {
+  background-color: #666666;
+}
+
+#main {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333333;
+  font-size: 34pt;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #666666;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+}
+
+h3 {
+  margin-top: 30px;
+}
+  
+header {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  float: left;
+  margin-right: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  clear: both;
+  width: 500px;
+  color: #999;
+  font-family: "Panic Sans", "Luxi Mono", "Courier New", Monaco;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 35px;
+  margin: 40px auto 20px auto;
+  vertical-align: bottom;
+}
+
+footer a:link, footer a:visited {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+section, article, aside, header, footer, nav, dialog, figure {
+  display: block;
+}
