@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Tom Preston-Werner</title>
+ <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
+ <link href="http://tom.preston-werner.com/"/>
+ <updated>2011-07-27T19:37:30+08:00</updated>
+ <id>http://tom.preston-werner.com/</id>
+ <author>
+   <name>Tom Preston-Werner</name>
+   <email>tom@mojombo.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello world!</title>
+   <link href="http://tom.preston-werner.com/hi.html"/>
+   <updated>2011-07-27T00:00:00+08:00</updated>
+   <id>http://tom.preston-werner.com/hi</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ 
+</feed>
