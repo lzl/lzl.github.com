@@ -1,5 +1,5 @@
 img { border:0px; }
-body { 
+body, h1 { 
     background: #fcfeff; 
     color: #042839; 
     font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
@@ -35,7 +35,7 @@ img::selection {
 /* ---------------------------------------------------- Navigation ------------------ */
 ul.nav {
  list-style: none;
- margin: 0;
+ margin: 0px;
  padding: 0px;
  position: fixed;
  top: 100px;
@@ -77,6 +77,9 @@ div.posts div.post div.postfoot a:hover {
 blockquote {
     padding: 13px 13px 21px 15px;
     margin-bottom: 18px;
+}
+.date {
+  color: #AAA;
 }
 blockquote:before {
     content:"\201C";
@@ -191,14 +194,15 @@ img { height: auto; }
 @media all and (min-width: 1850px) {
    .video iframe, .video object, .video embed { width: 1550px; height: 871px; }   }
 
+
 /* ---------------------------------------------------- Audio ------------------ */
-img.albumart {
+/*img.albumart {
  width: 207px;
  height: 207px;
-}
+}*/
 
 /* ---------------------------------------------------- Quote ------------------ */
-div.quote {
+/*div.quote {
  font-size: 24px;
  font-family:georgia;
  font-style:italic;
@@ -206,24 +210,24 @@ div.quote {
 }
 div.source {
  text-align: right;
-}
+}*/
 
 
 /* ---------------------------------------------------- Chat ------------------ */
-div.chat ul { list-style:none; margin:0px; padding:0px; }
+/*div.chat ul { list-style:none; margin:0px; padding:0px; }
 div.chat li { padding: 3px 0; }
 div.chat span.label {  }
-div.chat div.line {  }
+div.chat div.line {  }*/
 
 
 /* ---------------------------------------------------- Text ------------------ */
-.title {
+/*.title {
  font-weight: bold;
-}
+}*/
 
 
 /* ---------------------------------------------------- Notes ------------------ */
-div.notes { margin-top: 75px; }
+/*div.notes { margin-top: 75px; }
 ol.notes { padding: 0px; margin: 0px 5px; list-style-type: none; }
 ol.notes li.note { border-top: solid 0px #ccc; padding: 0 0 3px 0; }
 ol.notes li.note img.avatar {vertical-align: -4px; margin-right: 0px; width: 16px; height: 16px; }
@@ -231,29 +235,22 @@ ol.notes li.note span.action { font-weight: normal; }
 ol.notes li.note span.action a { font-weight: normal; }
 ol.notes li.note .answer_content { font-weight: normal; }
 ol.notes li.note blockquote { border-color: none; padding: 1px 3px; margin: 0px 0px 0px 0px; }
-ol.notes li.note blockquote a { text-decoration: none; }
+ol.notes li.note blockquote a { text-decoration: none; }*/
  
 
 /* ---------------------------------------------------- Pagination ------------------ */
-.pagination{height:36px;margin:18px 0;}.pagination ul{float:left;margin:0;border:1px solid #ddd;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);}
+/* .pagination{height:36px;margin:18px 0;}.pagination ul{float:left;margin:0;border:1px solid #ddd;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);}
 .pagination li{display:inline;}
 .pagination a{float:left;padding:0 14px;line-height:34px;border-right:1px solid;border-right-color:#ddd;border-right-color:rgba(0, 0, 0, 0.15);*border-right-color:#ddd;text-decoration:none;}
 .pagination .disabled a,.pagination .disabled a:hover{background-color:transparent;color:#bfbfbf;}
-.pagination .next a{border:0;}
+.pagination .next a{border:0;} */
 
 /* ---------------------------------------------------- Stuff ------------------ */
-blockquote { margin-left:3px !important; }
+/*blockquote { margin-left:3px !important; }
 
 hr {
  display:none;
-}
-
-
-#theme-by-parti {
-   position: fixed;
-   left: 20px;
-   bottom: 15px;
-}
+}*/
 
 /* ---------------------------------------------------- Mobile ------------------ */
 
@@ -274,8 +271,5 @@ hr {
  }
  img {
   max-width: 300px;
- }
- #theme-by-parti {
-  position: relative;
  }
 }
