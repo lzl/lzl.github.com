@@ -5,4 +5,5 @@ http://lizunlong.com/atom.xml
 http://lizunlong.com/index.html
 http://lizunlong.com/sitemap.txt
 
+http://lizunlong.com/links
 http://lizunlong.com/born
