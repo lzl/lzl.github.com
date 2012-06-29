@@ -1,5 +1,4 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
 
 <!--
@@ -13,12 +12,10 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="author" content="Li Zunlong">
-  <title>I'm lizunlong - I'm born</title>
-  <link href="/assets/themes/simpli/css/style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="http://dl.lizunlong.com/lzl-32.ico">
-  <link rel="apple-touch-icon" href="http://dl.lizunlong.com/apple-touch-icon.png" />
+  <title>I'm lizunlong - {{ page.title }}</title>
+  <link href="/static/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/static/lzl-32.ico">
+  <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
 
   <meta name="color:Background" content="#fcfeff"/>
   <meta name="color:Text" content="#042839"/>
@@ -57,12 +54,8 @@
   </ul><!-- /nav -->
   <div class="posts">
     <div class="post">
-      <div>
-  <h1><a href="/born">I'm born</a></h1>
-  <p class="date">27 May 1988</p>
-  <p>Thank you, mom.</p>
-</div>
-
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      {{ content }}
     </div>
   </div><!-- /posts -->
 </body>
