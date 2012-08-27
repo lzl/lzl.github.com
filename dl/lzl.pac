@@ -1,6 +1,5 @@
 function FindProxyForURL(url, host) {
 	if (shExpMatch(url, '*twitter*')) return 'SOCK5 127.0.0.1:1080';
-	if (shExpMatch(url, '*github*')) return 'SOCK5 127.0.0.1:1080';
 	if (shExpMatch(url, '*trello*')) return 'SOCK5 127.0.0.1:1080';
 	if (shExpMatch(url, '*twimg*')) return 'HTTP 127.0.0.1:8087';
 	if (shExpMatch(url, '*t.co*')) return 'HTTP 127.0.0.1:8087';
