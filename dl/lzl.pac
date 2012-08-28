@@ -7,7 +7,6 @@ function FindProxyForURL(url, host) {
 	if (shExpMatch(url, '*tinypic*')) return 'HTTP 127.0.0.1:8087';
 	if (shExpMatch(url, '*img.ly*')) return 'HTTP 127.0.0.1:8087';
 	if (shExpMatch(url, '*yfrog*')) return 'HTTP 127.0.0.1:8087';
-	if (shExpMatch(url, '*google*')) return 'HTTP 127.0.0.1:8087';
 	if (shExpMatch(url, '*appspot*')) return 'HTTP 127.0.0.1:8087';
 	if (shExpMatch(url, '*youtube*')) return 'HTTP 127.0.0.1:8087';
 	if (shExpMatch(url, '*youtu.be*')) return 'HTTP 127.0.0.1:8087';
