@@ -1,6 +1,6 @@
 body, h2 { 
-  background: {color:Background};
-  color: {color:Text};
+  background: #FCFEFF;
+  color: #042839;
   font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -12,12 +12,12 @@ img { border:0px; }
 
 a:link, a:active, a:visited { 
   text-decoration: none;
-  color: {color:Text};
+  color: #042839;
 }
 
 a:hover { 
   text-decoration: none;
-  color: {color:Accent};
+  color: #32E2C5;
 }
 
 /* Shit thing */
@@ -71,17 +71,17 @@ img::selection {
   margin-bottom: 100px;
 }
 .posts .post a {
-  border-bottom: 1px dotted {color:Accent};
+  border-bottom: 1px dotted #32E2C5;
 }
 .posts .post .postfoot {
-  color: {color:Accent};
+  color: #32E2C5;
 }
 .posts .post .postfoot a {
-  color: {color:Accent};
-  border-bottom: 0px dotted {color:Accent};
+  color: #32E2C5;
+  border-bottom: 0px dotted #32E2C5;
 }
 .posts .post .postfoot a:hover {
-  color: {color:Text};
+  color: #042839;
 }
 
 
@@ -206,7 +206,7 @@ ol.notes li.note blockquote a { text-decoration: none; }
 }
 .current_page {
   font-weight: bold;
-  background: {color:Accent};
+  background: #32E2C5;
   padding: 2px 6px 0px 6px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -229,29 +229,6 @@ hr {
 
 /* Mobile */
 
-<<<<<<< HEAD
-@media all and (max-width: 500px) {
- ul.nav {
-  font-size: large;
-  position: relative;
-  top: 70px;
-  width: 100%;
-  left: 0px;
-  margin-left: auto;
-  margin-right: auto;
- }
- div.posts {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
- }
- img {
-  max-width: 100%;
- }
-=======
 @media all and (max-width: 750px) {
   .nav {
     position: relative;
@@ -281,5 +258,4 @@ hr {
   .posts {
      width: auto;
   }
->>>>>>> update style.css
 }
