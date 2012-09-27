@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<html lang="zh-CN">
 
 <!--
 .__  .__                    .__                                                
@@ -11,16 +11,21 @@
 -->
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8">
   <title>I'm lizunlong - {{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The homepage of lizunlong">
+  <meta name="author" content="lizunlong">
+
   <link href="/static/style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="/static/lzl-32.ico">
+
+  <link rel="alternate" type="application/rss+xml" href="http://blog.lizunlong.com/rss" />
+  <link rel="shortcut icon" href="/static/lzl-32.ico" />
   <link rel="apple-touch-icon" href="/static/apple-touch-icon.png" />
 
   <meta name="color:Background" content="#fcfeff"/>
   <meta name="color:Text" content="#042839"/>
-  <meta name="color:Accent" content="#32E2C5"/>
+  <meta name="color:Accent" content="#32E2C5"/> 
 
 <script type="text/javascript">
 
@@ -38,21 +43,15 @@
 </head>
 
 <body>
-  <ul class="nav">
-    <li>
-      <a href="/" title="I'm lizunlong (李尊龙)" class="blogtitle">I'm lizunlong</a>
-    </li>
-    <p></p>
-    <li>
-      <a href="http://blog.lizunlong.com/" title="LZL">blog</a>
-    </li>
-    <li>
-      <a href="mailto:&#108;&#105;&#122;&#117;&#110;&#108;&#111;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=Hi, LZL" id="email">email</a>
-    </li>
-  </ul><!-- /nav -->
+  <div class="nav">
+    <h1><a href="/" title="I'm lizunlong (李尊龙)" class="blogtitle">I'm lizunlong</a></h1>
+    <ul>
+      <li><a href="http://blog.lizunlong.com/" title="LZL">blog</a></li>
+      <li><a href="mailto:&#108;&#105;&#122;&#117;&#110;&#108;&#111;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=Hi, LZL" id="email">email</a></li>
+    </ul><!-- /nav -->
   <div class="posts">
     <div class="post">
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
       {{ content }}
     </div>
   </div><!-- /posts -->
