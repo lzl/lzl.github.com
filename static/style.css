@@ -235,7 +235,7 @@ hr {
     top: 100px;
     left: 20px;
   }
-  h1 {
+  .nav h1 {
     font-size: large;
   }
   .nav li {
