@@ -3,4 +3,6 @@ layout: default
 title: INDEX
 ---
 
-This website is built with [Jekyll](http://jekyllrb.com/) and [Github Page](http://pages.github.com/).
+I live in Tianjin. 25 years old.
+
+I am refactoring myself, period.
