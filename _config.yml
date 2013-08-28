@@ -1,1 +1,4 @@
-permalink: /:title
+name: LZL
+markdown: redcarpet
+pygments: true
+permalink: none
