@@ -1,6 +1,6 @@
 ---
 layout: bnw
-title: LZL
+title: 瑟谷传奇
 ---
 
 # [瑟谷传奇.epub][1]
