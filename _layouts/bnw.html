@@ -416,23 +416,25 @@
       /*! bnw.css */
       body {
         font-family: menlo,'andale mono','courier new',sans-serif,'STHeiti';
-        -webkit-font-smoothing: antialiased;
-        line-height: 25px;
-      }
-      h1 {
         font-size: 18px;
+        line-height: 1.5em;
+        -webkit-font-smoothing: antialiased;
+      }
+      h1, li {
+        font-size: 1em;
         margin: 0;
         padding: 0;
       }
-      h2, h3, h4, li, p {
-        font-size: 18px;
+      h2, h3, h4, p {
+        font-size: 1em;
+        margin: 1em 0 0 0;
       }
       blockquote {
         border-width: 0 0 0 1px;
         border-style: solid;
         border-color: #e1b509;
         margin: 0;
-        padding: 0 0 0 18px;
+        padding: 0 0 0 1em;
       }
       footer p {
         margin: 0;
@@ -451,23 +453,20 @@
         list-style: none;
         padding: 0;
       }
-      p {
-        margin: 18px 0 0 0;
-      }
       hr {
         visibility: hidden;
-        padding: 15px;
+        padding: 1em;
       }
       nav {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 1em;
+        right: 1em;
         text-align: right;
       }
       aside {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 1em;
+        right: 1em;
         text-align: right;
       }
       .black {
@@ -482,7 +481,7 @@
       }
       .main {
         position: relative;
-        padding: 20px;
+        padding: 1em;
         max-width: 550px;
       }
       .black a {
@@ -503,7 +502,7 @@
         display: block;
         text-align: right;
         padding-top: 12px;
-        height: 36px;
+        height: 2em;
       }
       .avatar {
         width: 48px;
