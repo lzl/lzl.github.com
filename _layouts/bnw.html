@@ -267,7 +267,7 @@
       fieldset {
           border: 1px solid #c0c0c0;
           margin: 0 2px;
-          padding: 0.35em 0.625em 0.75em;
+          padding: 0.35em 0.625em 0.85em;
       }
 
       /**
@@ -533,64 +533,58 @@
 
 
       /*! animation.css */
-      img {
-        -webkit-transition: opacity 0.5s ease-in-out;
-        -moz-transition: opacity 0.5s ease-in-out;
-        -o-transition: opacity 0.5s ease-in-out;
-        transition: opacity 0.5s ease-in-out;
-      }
-      .fall {
-        -webkit-animation: logo-from-vert 1s 1s ease forwards;
-        -o-animation: logo-from-vert 1s 1s ease forwards;
-        animation: logo-from-vert 1s 1s ease forwards;
+      .slideInDown {
+        -webkit-animation: vert .5s .8s ease forwards;
+        -o-animation: vert .5s .8s ease forwards;
+        animation: vert .5s .8s ease forwards;
         -webkit-transform: translateY(-68px);
         -ms-transform: translateY(-68px);
         -o-transform: translateY(-68px);
         transform: translateY(-68px);
       }
-      .push {
-        -webkit-animation: logo-from-horz 0.5s ease forwards;
-        -o-animation: logo-from-horz 0.5s ease forwards;
-        animation: logo-from-horz 0.5s ease forwards;
+      .slideInLeft {
+        -webkit-animation: horz .4s ease forwards;
+        -o-animation: horz .4s ease forwards;
+        animation: horz .4s ease forwards;
         -webkit-transform: translateX(-570px);
         -ms-transform: translateX(-570px);
         -o-transform: translateX(-570px);
         transform: translateX(-570px);
       }
-      .push2 {
-        -webkit-animation: logo-from-horz 1s 1s ease forwards;
-        -o-animation: logo-from-horz 1s 1s ease forwards;
-        animation: logo-from-horz 1s 1s ease forwards;
+      .slideInLeft2 {
+        -webkit-animation: horz .5s .8s ease forwards;
+        -o-animation: horz .5s .8s ease forwards;
+        animation: horz .5s .8s ease forwards;
         -webkit-transform: translateX(-570px);
         -ms-transform: translateX(-570px);
         -o-transform: translateX(-570px);
         transform: translateX(-570px);
       }
-      .slide {
-        -webkit-animation: logo-from-horz 0.2s 2s ease forwards;
-        -o-animation: logo-from-horz 0.2s 2s ease forwards;
-        animation: logo-from-horz 0.2s 2s ease forwards;
+      .slideInRight {
+        -webkit-animation: horz .2s .8s ease forwards;
+        -o-animation: horz .2s .8s ease forwards;
+        animation: horz .2s .8s ease forwards;
         -webkit-transform: translateX(1000px);
         -ms-transform: translateX(1000px);
         -o-transform: translateX(1000px);
         transform: translateX(1000px);
       }
 
-      @-webkit-keyframes logo-from-horz {
+      @-webkit-keyframes horz {
         100% {
           -webkit-transform: translateX(0);
           transform: translateX(0);
           opacity: 1;
         }
       }
-      @-o-keyframes logo-from-horz {
+      @-o-keyframes horz {
         100% {
           -o-transform: translateX(0);
           transform: translateX(0);
           opacity: 1;
         }
       }
-      @keyframes logo-from-horz {
+      @keyframes horz {
         100% {
           -webkit-transform: translateX(0);
           -ms-transform: translateX(0);
@@ -600,21 +594,21 @@
         }
       }
 
-      @-webkit-keyframes logo-from-vert {
+      @-webkit-keyframes vert {
         100% {
           -webkit-transform: translateY(0);
           transform: translateY(0);
           opacity: 1;
         }
       }
-      @-o-keyframes logo-from-vert {
+      @-o-keyframes vert {
         100% {
           -o-transform: translateY(0);
           transform: translateY(0);
           opacity: 1;
         }
       }
-      @keyframes logo-from-vert {
+      @keyframes vert {
         100% {
           -webkit-transform: translateY(0);
           -ms-transform: translateY(0);
@@ -655,27 +649,27 @@
 
   <body>
     <header class="black">
-      <div class="main push">
-        <h1 class="fall desktop"><a href="http://lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
-        <h1 class="fall mobile"><a href="http://blog.lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title"><span class="crappy">前往 </span>blog / 博客</span></a></h1>
+      <div class="main slideInLeft">
+        <h1 class="slideInDown desktop"><a href="http://lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
+        <h1 class="slideInDown mobile"><a href="http://blog.lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title"><span class="crappy">前往 </span>blog / 博客</span></a></h1>
 
         {% include header.html %}
       </div>
 
-      <nav class="slide">
+      <nav class="slideInRight">
         {% include nav.html %}
       </nav> <!-- /nav -->
     </header> <!-- /header -->
 
     <div class="white">
-      <article class="main push2">
+      <article class="main slideInLeft2">
         {{ content }}
-      </article>
+      </article> <!-- /article -->
 
-      <aside class="slide">
+      <aside class="slideInRight">
         {% include aside.html %}
       </aside> <!-- /aside -->
-    </div> <!-- /article -->
+    </div>
 
     <footer class="black">
       <div class="main">
