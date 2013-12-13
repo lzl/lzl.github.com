@@ -414,7 +414,7 @@
 
 
       /*! bnw.css */
-      .container {
+      body {
         font-family: menlo,'andale mono','courier new',sans-serif,'STHeiti';
         -webkit-font-smoothing: antialiased;
         line-height: 25px;
@@ -654,35 +654,33 @@
   </head>
 
   <body>
-    <div class="container">
-      <header class="black">
-        <div class="main push">
-          <h1 class="fall desktop"><a href="http://lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
-          <h1 class="fall mobile"><a href="http://blog.lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title"><span class="crappy">前往 </span>blog / 博客</span></a></h1>
+    <header class="black">
+      <div class="main push">
+        <h1 class="fall desktop"><a href="http://lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
+        <h1 class="fall mobile"><a href="http://blog.lizunlong.com/"><img class="avatar" src="/static/lzl.png" width="48px" height="48px" /><span class="title"><span class="crappy">前往 </span>blog / 博客</span></a></h1>
 
-          {% include header.html %}
-        </div>
+        {% include header.html %}
+      </div>
 
-        <nav class="slide">
-          {% include nav.html %}
-        </nav> <!-- /nav -->
-      </header> <!-- /header -->
+      <nav class="slide">
+        {% include nav.html %}
+      </nav> <!-- /nav -->
+    </header> <!-- /header -->
 
-      <article class="white">
-        <div class="main push2">
-          {{ content }}
-        </div>
+    <article class="white">
+      <div class="main push2">
+        {{ content }}
+      </div>
 
-        <aside class="slide">
-          {% include aside.html %}
-        </aside> <!-- /aside -->
-      </article> <!-- /article -->
+      <aside class="slide">
+        {% include aside.html %}
+      </aside> <!-- /aside -->
+    </article> <!-- /article -->
 
-      <footer class="black">
-        <div class="main">
-          <p>updated by <i>lizunlong</i><span class="desktop"> on <i>{{ site.time | date_to_long_string }}</i></span></p>
-        </div>
-      </footer> <!-- /footer -->
-    </div> <!-- /container -->
+    <footer class="black">
+      <div class="main">
+        <p>updated by <i>lizunlong</i><span class="desktop"> on <i>{{ site.time | date_to_long_string }}</i></span></p>
+      </div>
+    </footer> <!-- /footer -->
   </body>
 </html>
