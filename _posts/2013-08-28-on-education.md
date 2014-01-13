@@ -1,5 +1,5 @@
 ---
-layout: bnw
+layout: single
 title: 论教育
 ---
 
