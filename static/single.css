@@ -31,14 +31,21 @@ article a:visited {
   color: #333;
 }
 
-h1, li {
+h1, h2, h3, h4, p, ul {
   font-size: 1em;
   margin: 0;
+  margin-bottom: 1em;
   padding: 0;
 }
-h2, h3, h4, p {
+header h1 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+li {
   font-size: 1em;
-  margin: 1em 0 0 0;
+  margin: 0;
   padding: 0;
 }
 /*! author-marks.css via http://mattgemmell.com/2013/05/16/author-marks/ */
@@ -55,14 +62,15 @@ blockquote {
   margin: 0;
   padding: 0 0 0 1em;
 }
-ul {
-  list-style: none;
-  margin: 1em 0 0 0;
-  padding: 0;
-}
 img {
   position: absolute;
   border-radius: 4px;
+}
+hr {
+  visibility: hidden;
+  margin: 0;
+  border: 0;
+  padding: 1em;
 }
 .avatar {
   width: 48px;
