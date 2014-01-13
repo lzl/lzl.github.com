@@ -1,5 +1,5 @@
 ---
-layout: bnw
+layout: single
 title: 瑟谷传奇
 ---
 
