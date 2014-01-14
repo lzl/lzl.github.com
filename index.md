@@ -13,3 +13,6 @@ title: LZL
     <li>{{ post.date | date:"%Y.%m.%d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
+
+- 邮箱：<lizunlong@gmail.com>
+- 博客：[blog.lizunlong.com](http://blog.lizunlong.com/)
