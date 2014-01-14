@@ -1,4 +1,4 @@
 name: LZL
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 permalink: none
