@@ -1963,4 +1963,4 @@ title: 瑟谷传奇
 - 丁帆等译
 - 1997年出版
 
-[1]:    https://dl.dropboxusercontent.com/u/398/%E7%91%9F%E8%B0%B7%E4%BC%A0%E5%A5%87.epub "下载 瑟谷传奇 电子书"
+[1]: /dl/%E7%91%9F%E8%B0%B7%E4%BC%A0%E5%A5%87.epub "下载 瑟谷传奇 电子书"
