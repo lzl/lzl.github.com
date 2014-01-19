@@ -1,37 +1,24 @@
 <!DOCTYPE html>
 <html lang="{block:English}en{/block:English}{block:French}fr{/block:French}{block:German}de{/block:German}{block:Japanese}ja{/block:Japanese}{block:Italian}it{/block:Italian}{block:Spanish}es{/block:Spanish}{block:Polish}pl{/block:Polish}">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width">
-	<title>{block:PostSummary}{PostSummary} &mdash; {/block:PostSummary}{Title}</title>
-	{block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
+  {block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
 
-	<link rel="apple-touch-icon" href="{PortraitURL-128}">
-	<link rel="shortcut icon" href="{Favicon}">
-	<link rel="alternate" type="application/rss+xml" href="{RSS}">
-	<!--Normalize 2.1.0 CSS-->
-	<link rel="stylesheet" href="http://static.tumblr.com/cqczc5x/kYdmihjuj/normalize.css" type="text/css" media="all">
-  <link rel="stylesheet" href="http://lizunlong.com/static/lib/bigfoot-bottom.css"/>
-	<style type="text/css">
-
-		img, video, object, embed {
-			max-width: 100%;
-			height: auto !important;
-		}
-
-		.clearfix {zoom:1;}
-		.clearfix:before, .clearfix:after {
-		  content: "\0020";
-		  display: block;
-		  height: 0;
-		  overflow: hidden; }
-		.clearfix:after {clear: both;}
-
-		/*Tumblr inherited */
-		iframe#tumblr_controls {}
-		.search_query {}
-		.read_more_container a {}
+  <link rel="apple-touch-icon" href="{PortraitURL-128}">
+  <link rel="shortcut icon" href="{Favicon}">
+  <link rel="alternate" type="application/rss+xml" href="{RSS}">
+  <link rel="stylesheet" href="http://static.tumblr.com/2uofakp/4qDmzneyb/normalize-bigfoot.css"/>
+  <style type="text/css">
+    .clearfix {zoom:1;}
+    .clearfix:before, .clearfix:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+    .clearfix:after {clear: both;}
 
     body {
       font-family: menlo,tahoma,'Hiragino Sans GB','STHeiti','WenQuanYi Micro Hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,simsun,sans-serif;
@@ -46,22 +33,24 @@
       background-color: #fff;
       color: #333;
     }
-    header, .text, .quote, .link {
+
+    header, .text, .link, .quote, .caption, .pagination {
       max-width: 540px;
-      margin-left: auto;
       margin-right: auto;
+      margin-left: auto;
       padding: 1em;
     }
-    .text, .quote, .link, .caption {
+    .text, .link, .quote {
       padding-bottom: 0;
     }
-    .tags, .date, .caption{
+    .caption {
+      padding: 0;
+      padding-top: .5em;
+    }
+    .tags, .date {
       max-width: 540px;
       margin-left:auto;
       margin-right:auto;
-    }
-    .caption {
-      padding-top: .5em;
     }
     .date {
       margin-bottom: 2em;
@@ -74,6 +63,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+
     a, a:visited {
       color: #0074D9;
     }
@@ -84,6 +74,19 @@
     header a:visited {
       color: #fff;
     }
+    .tag {
+      display: inline;
+      margin: 0 1em;
+    }
+    .tag a, .tag a:visited {
+      text-decoration: none;
+      color: #666;
+    }
+    .date a, .date a:visited {
+      text-decoration: none;
+      color: #999;
+    }
+
     h1, h2, h3, h4, p, ul {
       font-size: 1em;
       margin: 0;
@@ -100,18 +103,6 @@
       font-size: 1em;
       margin: 0;
       padding: 0;
-    }
-    .tag {
-      display: inline;
-      margin: 0 1em;
-    }
-    .tag a, .tag a:visited {
-      text-decoration: none;
-      color: #666;
-    }
-    .date a, .date a:visited {
-      text-decoration: none;
-      color: #999;
     }
     /*! author-marks.css via http://mattgemmell.com/2013/05/16/author-marks/ */
     strong {
@@ -151,124 +142,102 @@
       height: 2em;
       font-weight: normal;
     }
-	</style>
-  <script src="http://lizunlong.com/static/lib/jquery-2.0.3.min.js"></script>
-  <script src="http://lizunlong.com/static/lib/bigfoot.min.js"></script>
-  <script type="text/javascript" src="http://static.tumblr.com/q0etgkr/EIBmz7s0p/infinitescrolling.js"></script>
+  </style>
+
+  <script type="text/javascript" src="http://static.tumblr.com/2uofakp/QWjmznd5y/jquery-bigfoot-infinitescrolling.js"></script>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
 </head>
 <body>
 <div class="black">
-	<header id="header">
-		<h1><a href="/"><img class="avatar" src="http://lizunlong.com/avatar.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
-<!-- 		{block:Description}<div class="description">{Description}</div>{/block:Description} -->
-<!-- 		<ul id="nav">
-			{block:HasPages}{block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}{/block:HasPages}
-			<li><a href="/archive">{lang:Archive}</a></li>
-			{block:AskEnabled}<li><a href="/ask">{AskLabel}</a></li>{/block:AskEnabled}
-		</ul> -->
-<!-- 		<form id="search" action="/search" method="get">
-			<input type="text" placeholder="{lang:Search}" name="q" value="{SearchQuery}">
-			<input type="submit" value="{lang:Search}">
-		</form> -->
-	</header>
+  <header id="header">
+    <h1><a href="/"><img class="avatar" src="http://lizunlong.com/avatar.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
+  </header>
 </div>
 <div class="white">
-	<section class="content">
-
-
-		<!-- {block:SearchPage}
-		<div class="result">
-			<p>{lang:Found SearchResultCount results for SearchQuery 2}</p>
-			{block:NoSearchResults}<p>{lang:No results for SearchQuery 2}</p>{/block:NoSearchResults}
-		</div>
-		{/block:SearchPage}
-		{block:TagPage}<div class="result"><p>{lang:TagResultCount posts tagged Tag 3}</p></div>{/block:TagPage} -->
-
+  <section class="content">
     <div class = "autopagerize_page_element" >
-		{block:Posts}
-		<article class="post {TagsAsClasses}">
-			{block:Text}
-			<div class="text">
-				{block:Title}<h3>{Title}</h3>{/block:Title}
-				{Body}
-			</div>
-			{/block:Text}
-			{block:Quote}
-			<div class="quote">
-				<blockquote class="words {Length}">&#8220;{Quote}&#8221;</blockquote>
-				{block:Source}<p class="source">&mdash; {Source}</p>{/block:Source}
-			</div>
-			{/block:Quote}
-			{block:Link}
-			<div class="link">
-				<h3><a href="{URL}" {Target}>{Name}</a></h3>
-				{block:Description}<div class="caption">{Description}</div>{/block:Description}
-			</div>
-			{/block:Link}
-			{block:Video}
-			<div class="video">
-				{Video-500}
-				{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-			</div>
-			{/block:Video}
-			{block:Audio}
-			<div class="audio">
-				{block:AlbumArt}<img src="{AlbumArtURL}" alt="">{/block:AlbumArt}
-				{AudioPlayerBlack}
-				{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-			</div>
-			{/block:Audio}
-			{block:Photo}
-			<div class="photo">
-					<!-- {LinkOpenTag}<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>{LinkCloseTag} -->
+    {block:Posts}
+    <article class="post {TagsAsClasses}">
+      {block:Text}
+      <div class="text">
+        {block:Title}<h3>{Title}</h3>{/block:Title}
+        {Body}
+      </div>
+      {/block:Text}
+      {block:Quote}
+      <div class="quote">
+        <blockquote class="words {Length}">&#8220;{Quote}&#8221;</blockquote>
+        {block:Source}<p class="source">&mdash; {Source}</p>{/block:Source}
+      </div>
+      {/block:Quote}
+      {block:Link}
+      <div class="link">
+        <h3><a href="{URL}" {Target}>{Name}</a></h3>
+        {block:Description}<div class="caption">{Description}</div>{/block:Description}
+      </div>
+      {/block:Link}
+      {block:Video}
+      <div class="video">
+        {Video-500}
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+      </div>
+      {/block:Video}
+      {block:Audio}
+      <div class="audio">
+        {block:AlbumArt}<img src="{AlbumArtURL}" alt="">{/block:AlbumArt}
+        {AudioPlayerBlack}
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+      </div>
+      {/block:Audio}
+      {block:Photo}
+      <div class="photo">
+          <!-- {LinkOpenTag}<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>{LinkCloseTag} -->
           <img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>
-					{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-			</div>
-			{/block:Photo}
-			{block:Photoset}
-			<div class="photoset">
-				{block:Photos}
-					<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>
-					{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+          {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+      </div>
+      {/block:Photo}
+      {block:Photoset}
+      <div class="photoset">
+        {block:Photos}
+          <img src="{PhotoURL-HighRes}" alt="{PhotoAlt}"/>
+          {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
         {/block:Photos}
-				{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-			</div>
-			{/block:Photoset}
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+      </div>
+      {/block:Photoset}
 
-			{block:Panorama}
-			<div class="panorama">
-			    {LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
-			    {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-			</div>
-			{/block:Panorama}
+      {block:Panorama}
+      <div class="panorama">
+          {LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
+          {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+      </div>
+      {/block:Panorama}
 
-			{block:Chat}
-			<div class="chat">
-				{block:Title}<h3>{Title}</h3>{/block:Title}
-				<ul class="conversation">
-					{block:Lines}
-					<li class="line {Alt}">
-						{block:Label}<span class="person">{Label}</span>{/block:Label}
-						<span class="person-said">{Line}</span>
-					</li>
-					{/block:Lines}
-				</ul>
-			</div>
-			{/block:Chat}
-			{block:Answer}
-			<div class="answer">
-				<img src="{AskerPortraitURL-40}">
-				{Asker}
-				{Question}
-				{Answer}
-			</div>
-			{/block:Answer}
-		</article>
+      {block:Chat}
+      <div class="chat">
+        {block:Title}<h3>{Title}</h3>{/block:Title}
+        <ul class="conversation">
+          {block:Lines}
+          <li class="line {Alt}">
+            {block:Label}<span class="person">{Label}</span>{/block:Label}
+            <span class="person-said">{Line}</span>
+          </li>
+          {/block:Lines}
+        </ul>
+      </div>
+      {/block:Chat}
+      {block:Answer}
+      <div class="answer">
+        <img src="{AskerPortraitURL-40}">
+        {Asker}
+        {Question}
+        {Answer}
+      </div>
+      {/block:Answer}
+    </article>
 
       {block:HasTags}
         <ul class="tags">
@@ -287,29 +256,25 @@
           </a>
         </div>
       {/block:Date}
-		{/block:Posts}
+    {/block:Posts}
     </div>
 
-<!-- 		{block:PermalinkPagination}
-		<div class="pagination">
-			{block:PreviousPost}<a class="prev"href="{PreviousPost}">{lang:Previous post}</a>{/block:PreviousPost}
-			{block:NextPost}<a class="next" href="{NextPost}">{lang:Next post}</a>{/block:NextPost}
-		</div>
-		{/block:PermalinkPagination} -->
+    {block:IndexPage}
+    {block:Pagination}
+    <div class="pagination">
+      {block:PreviousPage}<a class="prev" href="{PreviousPage}">{lang:Previous}</a>{/block:PreviousPage}
 
-<!-- 		{block:Pagination}
-		<div class="pagination">
-			{block:PreviousPage}<a class="prev" href="{PreviousPage}">{lang:Previous}</a>{/block:PreviousPage}
+      {block:JumpPagination length="10"}
+        {block:CurrentPage}<span class="current-page">{PageNumber}</span>{/block:CurrentPage}
+        {block:JumpPage}<a class="jump-page" href="{URL}">{PageNumber}</a>{/block:JumpPage}
+      {/block:JumpPagination}
 
-			{block:JumpPagination length="5"}
-				{block:CurrentPage}<span class="current-page">{PageNumber}</span>{/block:CurrentPage}
-				{block:JumpPage}<a class="jump-page" href="{URL}">{PageNumber}</a>{/block:JumpPage}
-			{/block:JumpPagination}
-
-			{block:NextPage}<a class="next" href="{NextPage}">{lang:Next}</a>{/block:NextPage}
-		</div>
-		{/block:Pagination} -->
-	</section><!--close content-->
+      {block:NextPage}<a class="next" href="{NextPage}">{lang:Next}</a>
+      {/block:NextPage}
+    </div>
+    {/block:Pagination}
+    {/block:IndexPage}
+  </section><!--close content-->
 </div>
 <script type="text/javascript">
   var bigfoot = $.bigfoot(
