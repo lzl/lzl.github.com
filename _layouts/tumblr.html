@@ -36,8 +36,7 @@
 
     header, .text, .link, .quote, .caption, .pagination {
       max-width: 540px;
-      margin-right: auto;
-      margin-left: auto;
+      margin: 0 auto;
       padding: 1em;
     }
     .link {
@@ -51,8 +50,12 @@
     }
     .tags, .date {
       max-width: 540px;
-      margin-left:auto;
-      margin-right:auto;
+      margin: 0 auto;
+    }
+    .tags, .date, .audio, .tumblr_audio_player, .spotify_audio_player, .soundcloud_audio_player, .video, .tumblr_video_container, .widget {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
     }
     .date {
       margin-bottom: 2em;
@@ -64,11 +67,10 @@
     .photoset .caption {
       padding: .5em 1em 1em;
     }
-    .photo img, .photoset img {
+    .photo img, .photoset img, .audio img {
       max-width: 100%;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
     }
 
     a {
