@@ -1,6 +1,9 @@
 ---
 layout: single
 title: 瑟谷传奇
+redirect_from: /sudbury-valley-school.html
+category: article
+tags: education
 ---
 
 # [瑟谷传奇.epub][1]

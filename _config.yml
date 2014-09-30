@@ -1,4 +1,6 @@
 name: LZL
 markdown: kramdown
-pygments: true
+highlighter: true
 permalink: none
+gems:
+  - jekyll-redirect-from

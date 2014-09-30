@@ -1,6 +1,9 @@
 ---
 layout: single
 title: 论教育
+redirect_from: /on-education.html
+category: article
+tag: education
 ---
 
 # 论教育

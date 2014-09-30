@@ -25,7 +25,7 @@ header a:visited {
   color: #fff;
 }
 article a {
-  color: #333;
+  color: #0074D9;
 }
 article a:visited {
   color: #333;
@@ -39,6 +39,9 @@ h1, h2, h3, h4, p, ul {
 }
 header h1 {
   margin: 0;
+}
+article h1 {
+  text-align: center;
 }
 ul {
   list-style: none;
