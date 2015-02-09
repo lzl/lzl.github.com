@@ -1,6 +1,5 @@
 name: LZL
 markdown: kramdown
-highlighter: true
 permalink: none
 gems:
   - jekyll-redirect-from
