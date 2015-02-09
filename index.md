@@ -17,7 +17,7 @@ title: LZL
 
 <ul class="notes">
   <li>我的大脑想过这些事情：</li>
-  {% for post in site.categories.note %}
+  {% for post in site.categories.note limit:3 %}
   <li>{{ post.date | date:"%Y.%m.%d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
