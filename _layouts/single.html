@@ -17,16 +17,25 @@
   <![endif]-->
 </head>
 <body>
-<div class="black">
-  <header>
-    <h1><a href="/"><img class="avatar" src="/avatar.png" width="48px" height="48px" /><span class="title">LZL / 李尊龙</span></a></h1>
-  </header>
-</div>
-<div class="white">
-  <article>
+<a href="/">
+  <div class="black">
+    <header>
+      <span class="avatar"></span>
+      <span class="logo"></span>
+    </header>
+  </div>
+</a>
+
+<article class="white">
+  {% if page.title == "LZL" %}
     {{ content }}
+  {% else %}
+    {{ content }}
+    <p class="published-at">
+      <span class="date">{{ page.date | date:"%Y年%-m月%-d日" }}</span>
+    </p>
     <a class="button" href="/random.html">随机阅读</a>
-  </article>
-</div>
+  {% endif %}
+</article>
 </body>
 </html>
