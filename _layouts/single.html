@@ -18,24 +18,37 @@
 </head>
 <body>
 <a href="/">
-  <div class="black">
+  <section class="black">
     <header>
       <span class="avatar"></span>
       <span class="logo"></span>
     </header>
-  </div>
+  </section>
 </a>
 
-<article class="white">
+<section class="white">
   {% if page.title == "LZL" %}
-    {{ content }}
+    <article>
+      {{ content }}
+    </article>
   {% else %}
-    {{ content }}
-    <p class="published-at">
-      <span class="date">{{ page.date | date:"%Y年%-m月%-d日" }}</span>
-    </p>
-    <a class="button" href="/random.html">随机阅读</a>
+    <article>
+      {{ content }}
+      <footer>
+        <p class="published-at">
+          <time datetime="{{ page.date }}">{{ page.date | date:"%Y年%-m月%-d日" }}</time>
+        </p>
+      </footer>
+      <nav class="grid gutter">
+        <div class="cell back">
+          <a class="button" href="/">‹首页</a>
+        </div>
+        <div class="cell">
+          <a class="button" href="/random.html">随机阅读</a>
+        </div>
+      </nav>
+    </article>
   {% endif %}
-</article>
+</section>
 </body>
 </html>

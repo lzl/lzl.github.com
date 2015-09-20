@@ -102,10 +102,27 @@ hr {
   border: 1px solid;
   border-radius: 4px;
   text-align: center;
+  text-decoration: none;
 }
 .button:visited {
   color: #0074D9;
 }
 .published-at {
   text-align: right;
+}
+
+.grid {
+  display: flex;
+}
+.cell {
+  flex: 1
+}
+.gutter {
+  margin: -1em 0 0 -1em;
+}
+.gutter > .cell {
+  padding: 1em 0 0 1em;
+}
+.back {
+  flex: 0 0 33.3333%;
 }
