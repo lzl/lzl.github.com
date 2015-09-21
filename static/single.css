@@ -107,6 +107,10 @@ hr {
 .button:visited {
   color: #0074D9;
 }
+.button:hover {
+  color: #fff;
+  background: #0074D9;
+}
 .published-at {
   text-align: right;
 }
