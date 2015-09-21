@@ -1,6 +1,7 @@
 ---
 layout: single
 title: 社区
+summary: 维基百科上说，社区一词源于拉丁语，原意是亲密的关系和共同的东西。这种直戳本质的描述更加符合我对社区的理解。
 category: note
 ---
 

@@ -10,6 +10,6 @@ title: LZL
 {% for post in site.categories.note %}
 <div class="card">
   <a href="{{ post.url }}"><p class="title">{{ post.title }}</p></a>
-  <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <p>{{ post.summary }}</p>
 </div>
 {% endfor %}
