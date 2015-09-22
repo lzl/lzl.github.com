@@ -10,7 +10,7 @@ header, article {
   padding: 1em;
 }
 .black {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
 }
 .white {
@@ -31,7 +31,7 @@ article a:visited {
   color: #333;
 }
 
-h1, h2, h3, h4, p, ul {
+h1, h2, h3, h4, p {
   font-size: 1em;
   margin: 0;
   margin-bottom: 1em;
@@ -43,13 +43,9 @@ header h1 {
 article h1 {
   text-align: center;
 }
-ul {
-  list-style: none;
-}
-li {
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 /*! author-marks.css via http://mattgemmell.com/2013/05/16/author-marks/ */
 strong {
@@ -63,11 +59,7 @@ blockquote {
   border-style: solid;
   border-color: #FF851B;
   margin: 0;
-  padding: 0 0 0 1em;
-}
-img {
-  position: absolute;
-  border-radius: 4px;
+  padding: 0 0 0 1rem;
 }
 hr {
   visibility: hidden;
@@ -76,23 +68,68 @@ hr {
   padding: 1em;
 }
 .avatar {
+  position: absolute;
+  border-radius: 4px;
   width: 48px;
   height: 48px;
+  background-image: url(/static/avatar.png);
+  background-size: 48px;
   background-repeat: no-repeat;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAAAAAByaaZbAAADWElEQVR4Aa3UW2gcVRzH8d/DDJNMt7Hbbm9rYm2x3dCbkCqaFI2ISGiJDz5YaClBggp98IItitpiHppCDQQttUi1FqLWomCpLkrQCquS9kGrtEbatZgGtglrg5slyTIzh/OTc4ZZZzbrbgU/D/vw53yZOWfYA/5H/19w7vTAjqcPX7zV4PMHLCgrdnxZuoVgaqeBgNk1WTfItyNs04V6QQ+imm/UDkYaUWFP7eAlVGoarRncg3n6agXjcQCwOto7e/uOH96VMgFsrxV87R8NfRRn7wbWyxrBiKmCrSz7wcRaURlIycCvtgoeZllpNe5nNBCOI0X5My9XQQc11yP5OHZWBCXhjH+aLeT957SpoOH1KfL6G+k5kgdxLBoUxzOD+/b09KUllW4g/vaLTauuMfsHlUOJqXAgnInuxzbZycQjR6+oyaUVTYbVPtBpDpOXT/wpeLP3IMOBm82mLACwt2XU5LLdZgCGlTovZp7YPS04d2JUhgNZ+CQFmCbQ8oWnRp0rY1bSRqsTLBsrFZxQwOnB26FZH+jgFViLWhA6ytG/GNlD6egSE8qCt/w9QtvLQG4mEnDy0GpojYNU3gfMhcARCgaiQe7sg/D161caBtacse12tyCrB87cqya0d/SKqzE07zaw5WdWA87OzZzaaEDZL/R3vxPK5oygrBa4RedYF3Tx7Kxe8SS0F1yOySqB580eaLOhrCroR1xbCgDJ31gNhCg6A+v8IPGu9M+pEcDSi9UDCinTHfAtGHGoDC0G7H/btHP9szPrAN+a/gl9tO8BsdHqgWQ+t3U5fAawfvgXV3IiDjyao+/b8+HAnfp9byvCrOcdjiwEnpHBtXAlHOSnD6TuwD/MDfsyotQG4F5BTXzohQOOH7mvAWXbzqllA/pKzVPLphmCG9/1rjQRnNJ+Ks5avaHt+p1uflyMBLmvWsuXb+w0te9NKPof4Q1dZRiy3fa8W/oktC59YxUZgee2lAP7En0fQVtyivPhrhgCDwXDb6AYiTTpuJXBrgYEhoLhT/oTWm8KyqJXGSQRaJkJhmOdywzEe1zKkmQFmAg8xcBs7mT/y8fzpOewEsrMDMtcBmoEGz3W5nnRYJB1TP4YCZqnWUfpgg42J5ctji+6rek11iXUz98rh2ExNKEAPgAAAABJRU5ErkJggg==);
 }
-.title {
+.avatar:hover {
+  background-image: url(/static/ha.gif);
+}
+.logo {
   display: block;
-  text-align: right;
   padding-top: 12px;
   height: 2em;
-  font-weight: normal;
+  background-image: url(/static/logo.png);
+  background-position: right;
+  background-size: 124px 20px;
+  background-repeat: no-repeat;
+}
+.published-at {
+  text-align: right;
 }
 .button {
   display: block;
-  margin: 10px;
   padding: 10px;
   border: 1px solid;
   border-radius: 4px;
   text-align: center;
+  text-decoration: none;
+}
+.button:visited {
+  color: #0074D9;
+}
+.button:hover {
+  color: #fff;
+  background: #0074D9;
+}
+
+.card {
+  position: relative;
+  padding: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.card .title {
+  margin-bottom: 12px;
+}
+
+.grid {
+  display: flex;
+}
+.cell {
+  flex: 1;
+}
+.gutter {
+  margin: -1rem 0 0 -1rem;
+}
+.gutter > .cell {
+  padding: 1rem 0 0 1rem;
+}
+.back {
+  flex: 0 0 33.3333%;
 }
