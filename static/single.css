@@ -31,7 +31,7 @@ article a:visited {
   color: #333;
 }
 
-h1, h2, h3, h4, p, ul {
+h1, h2, h3, h4, p {
   font-size: 1em;
   margin: 0;
   margin-bottom: 1em;
@@ -43,13 +43,9 @@ header h1 {
 article h1 {
   text-align: center;
 }
-ul {
-  list-style: none;
-}
-li {
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 /*! author-marks.css via http://mattgemmell.com/2013/05/16/author-marks/ */
 strong {
@@ -63,11 +59,7 @@ blockquote {
   border-style: solid;
   border-color: #FF851B;
   margin: 0;
-  padding: 0 0 0 1em;
-}
-img {
-  position: absolute;
-  border-radius: 4px;
+  padding: 0 0 0 1rem;
 }
 hr {
   visibility: hidden;
@@ -96,6 +88,9 @@ hr {
   background-size: 124px 20px;
   background-repeat: no-repeat;
 }
+.published-at {
+  text-align: right;
+}
 .button {
   display: block;
   padding: 10px;
@@ -110,9 +105,6 @@ hr {
 .button:hover {
   color: #fff;
   background: #0074D9;
-}
-.published-at {
-  text-align: right;
 }
 
 .card {
