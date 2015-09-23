@@ -98,6 +98,7 @@ hr {
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 .button:visited {
   color: #0074D9;

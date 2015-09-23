@@ -39,9 +39,19 @@
           <time datetime="{{ page.date }}">{{ page.date | date:"%Y年%-m月%-d日" }}</time>
         </p>
       </footer>
+      <script type="text/javascript">
+        function back() {
+          var url = "http://lizunlong.com/";
+          if (document.referrer === url) {
+            history.back(-1);
+          } else {
+            window.location.href = url;
+          }
+        }
+      </script>
       <nav class="grid gutter">
         <div class="cell back">
-          <a class="button" href="/">‹首页</a>
+          <a class="button" onClick="back();">‹首页</a>
         </div>
         <div class="cell">
           <a class="button" href="/random.html">随机阅读</a>
