@@ -50,15 +50,25 @@
         }
       </script>
       <nav class="grid gutter">
-        <div class="cell back">
+        <div class="cell back js">
           <a class="button" onClick="back();">‹首页</a>
         </div>
-        <div class="cell">
+        <div class="cell nojs">
+          <a class="button" href="/">‹首页</a>
+        </div>
+        <div class="cell js">
           <a class="button" href="/random.html">随机阅读</a>
         </div>
       </nav>
     </article>
   {% endif %}
 </section>
+
+<noscript>
+  <style type="text/css">
+    .js { display: none; }
+    .nojs { display: block; }
+  </style>
+</noscript>
 </body>
 </html>
