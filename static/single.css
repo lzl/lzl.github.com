@@ -137,3 +137,7 @@ hr {
 .nojs {
   display: none;
 }
+
+img {
+  width: 100%;
+}
