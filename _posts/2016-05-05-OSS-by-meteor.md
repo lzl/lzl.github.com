@@ -7,7 +7,7 @@ category: note
 
 # 使用 Meteor 实现的开源项目有哪些？
 
-今天说开源项目，明天说商业网站。
+今天说开源项目，明天说[商业网站](/note/business-by-meteor.html)。
 
 ## 1. Telescope
 
