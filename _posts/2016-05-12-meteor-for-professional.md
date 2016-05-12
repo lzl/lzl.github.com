@@ -13,7 +13,7 @@ category: note
 
 ## 1. 专业、严谨的代码组织架构
 
-ES2015 (ES6) 标准的细则是由一个小组审查并最终投票敲定的，小组成员由一些公司的代表组成，前天发布的文章中提到的 Geoff Schmidt 便代表 Meteor 团队参与其中——点击文末左下角的 阅读原文 可查看小组成员名单。ES2015 是 JavaScript 的新标准，是近五年来最大的一次标准升级，是 JavaScript 开发者的福利。其中 import / export 规则允许代码模块化，Meteor 1.3 版本正式对这一特性进行了支持。
+ES2015 (ES6) 标准的细则是由一个小组审查并最终投票敲定的，[小组成员](http://www.ecma-international.org/memento/GA.htm)由一些公司的代表组成，前天发布的文章中提到的 Geoff Schmidt 便代表 Meteor 团队参与其中。ES2015 是 JavaScript 的新标准，是近五年来最大的一次标准升级，是 JavaScript 开发者的福利。其中 import / export 规则允许代码模块化，Meteor 1.3 版本正式对这一特性进行了支持。
 
 为了向后兼容，Meteor 采取渐变手段，暂时仅将 `/imports` 目录下的文件视为完全遵守 import / export 规则，其他目录下的文件按原规则走。
 
