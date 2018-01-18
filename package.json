@@ -1,0 +1,7 @@
+{
+  "name": "LZL",
+  "private": true,
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  }
+}
