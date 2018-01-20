@@ -7,9 +7,13 @@ title: LZL
 
 联系方式：<lizunlong@gmail.com>
 
+<hr />
+
 {% for post in site.categories.note %}
 <div class="card">
   <a href="{{ post.url }}"><p class="title">{{ post.title }}</p></a>
   <p>{{ post.summary }}</p>
 </div>
 {% endfor %}
+
+<small>完</small>
