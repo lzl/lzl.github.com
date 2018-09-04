@@ -5,8 +5,6 @@ summary: 怎么样成为一个高手？
 category: note
 ---
 
-# 学习的真相
-
 本文前半部分是罗辑思维第183期《[怎么样成为一个高手](http://v.youku.com/v_show/id_XMTY4OTY3NjU3Ng==.html)》的笔记，后半部分是我作的总结。
 
 ## 笔记

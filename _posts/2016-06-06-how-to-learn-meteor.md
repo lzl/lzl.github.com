@@ -5,8 +5,6 @@ summary: 上周说过，现在对 Meteor 初学者来说是收割的季节，也
 category: note
 ---
 
-# 如何学习 Meteor
-
 上周说过，现在对 Meteor 初学者来说是收割的季节，也正因此，学习过程中非常容易抓瞎 —— 资源太多到底从何入手。
 
 当然从官方的入手。正确学习 Meteor 的姿势就是从[官网](https://www.meteor.com/)开始，[安装](https://www.meteor.com/install)、[教程](https://www.meteor.com/tutorials)、[指南](https://guide.meteor.com/)、[文档](http://docs.meteor.com/)，齐活。先安装 Meteor，再把教程过一遍。好了，基本还是一头雾水，没关系，把指南和文档加入书签，方便以后时常查阅。

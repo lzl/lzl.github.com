@@ -5,8 +5,6 @@ summary: 咱慢慢来，先宏观、粗略地了解一下。
 category: note
 ---
 
-# 了解 Meteor
-
 Meteor 的[官方网站](https://www.meteor.com/)将自己描述为 "The JavaScript App Platform"，直译的话，就是使用 JavaScript 编程语言构建应用程序的平台。按照套路，我接下来应该开始解释 JavaScript, App, Platform 的各自含义，我才不呢，那是老师干的事，我要从学生的视角讲一讲我是如何发现、了解 Meteor 的。
 
 [1477 天前](https://news.ycombinator.com/item?id=3824908)，也就是 2012 年 4 月 10 日，其创始人 Geoff Schmidt 向 Hacker News 提交了官网链接，也就是那一刻，Meteor 第一次向全世界公开亮相，我便是在那时发现它的，当时我对编程还一窍不通，只会写一写静态网页。随后，Meteor 发布[演示视频](https://www.youtube.com/watch?v=fsi0aJ9yr2o)，我一边看一边就能感受到自身热血沸腾，那是一种介于『不明觉厉』与『这就是未来啊』之间的感觉。当年看 Google 的某个小团队对外发布 PubSubHubbub 的[演示视频](https://www.youtube.com/watch?v=ewQBgbysSOQ)时也是这种感觉，尊贵的你也许无法在这里与我共鸣，但我相信在你的兴趣领域里一定有类似的巅峰时刻，那是一种『活着真他妈好』的幸福。

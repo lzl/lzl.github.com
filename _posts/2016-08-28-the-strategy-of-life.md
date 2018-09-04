@@ -5,8 +5,6 @@ summary: 或者说，如何实现财富自由。
 category: note
 ---
 
-# 人生的战略
-
 本文是罗辑思维第184期节目《[什么是战略](http://v.youku.com/v_show/id_XMTY5OTQxMDQ4MA==.html)》的观后总结。
 
 战术与战略的区别是什么？你先试着作答并把它暂存于脑中。

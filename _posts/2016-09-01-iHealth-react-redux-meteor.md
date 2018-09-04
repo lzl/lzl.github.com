@@ -5,8 +5,6 @@ summary: 昨晚（8月31日周三）我去清华那里听了一场由毛豆网�
 category: note
 ---
 
-# iHealth 团队的最佳实践
-
 昨晚（8月31日周三）我去清华那里听了一场由毛豆网组织的技术讲座，题为《硅谷最新的 React/Redux 和 Meteor 共存之道》。
 
 主讲人叫 Vivian Hou，中科大化学本科，普林斯顿计算化学博士，然后，转行干软件开发，作为全栈软件工程师加入 iHealth Labs，他的老板 Kevin G. Zhang 说她将是公司新项目的主导者。

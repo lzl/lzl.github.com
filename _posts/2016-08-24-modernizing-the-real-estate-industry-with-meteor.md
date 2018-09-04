@@ -5,8 +5,6 @@ summary: Qualia 创始人分享了团队使用 Meteor 的感受，以及为什�
 category: note
 ---
 
-# 对话 Qualia 创始人
-
 > 作者：[Thea Lamkin](http://info.meteor.com/blog/modernizing-the-real-estate-industry-with-meteor)<br>译者：LZL
 
 在下面的访谈中，Qualia 创始人 Lucas Hansen 向我们大致描述了他的团队如何开发一套软件，帮助产权保险代理商在线管理那些复杂的住宅按揭结算流程。同时，他分享了团队使用 Meteor 的感受，以及为什么选择 Meteor 后可通过提升开发效率、快速构建原型和响应式应用来挑战现有市场。

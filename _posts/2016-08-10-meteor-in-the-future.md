@@ -5,8 +5,6 @@ summary: 简要回答：更好用的样子。
 category: note
 ---
 
-# Meteor 的未来模式大致是什么样子？
-
 昨天提到[我将 Meteor 分为经典模式和未来模式](/note/should-I-learn-meteor.html)，今天说说这未来模式到底是个什么东西。
 
 『未来』这两个字专指 Meteor 的未来，它将要做的事 —— 在我看来 —— 实际就是重塑 JavaScript 生态的现状。进一步解释，JavaScript 生态现在能做的事已经很多了 —— 远比四年前丰富、先进 —— 如果有那么一个角色使得原本需要较高脑力和熟悉度才能实现的事物允许被更多的人享用，那么这个世界上就会有更多的人使用 JavaScript 编写出更好的软件。这一角色，[正好契合 Meteor 的使命](/note/the-meteor-mission.html)。
