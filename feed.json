@@ -1,0 +1,31 @@
+---
+layout: null
+---
+
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "home_page_url": "{{ "/" | absolute_url }}",
+    "feed_url": "{{ "/feed.json" | absolute_url }}",
+    "icon": "{{ "/static/hero.png" | absolute_url }}",
+    "favicon": "{{ "/favicon.ico" | absolute_url }}",
+    "expired": false,
+    "author": {
+      "name": "lizunlong",
+      "url": "{{ "/" | absolute_url }}",
+      "avatar": "{{ "/static/hero.png" | absolute_url }}"
+    },
+    "items": [
+      {% for post in site.posts %}
+        {
+            "id": "{{ post.url | absolute_url}}",
+            "url": "{{ post.url | absolute_url }}",
+            "date_published": "{{ post.date | date_to_xmlschema }}",
+            "title": {{ post.title | jsonify }},
+            "summary": {{ post.summary | jsonify }},
+            "content_html": {{ post.content | strip_newlines | jsonify }}
+        }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+}
