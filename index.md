@@ -5,6 +5,8 @@ title: LZL
 
 我的毕生事业：尽可能辅助更多的人发现、发展他们的兴趣。
 
+订阅方式：[JSON feed](/feed.json) 或 [RSS feed](/atom.xml)
+
 联系方式：<lizunlong@gmail.com>
 
 <hr />
