@@ -72,12 +72,12 @@ hr {
   border-radius: 4px;
   width: 48px;
   height: 48px;
-  background-image: url(/static/avatar.png);
+  background-image: url(/static/primitive.png);
   background-size: 48px;
   background-repeat: no-repeat;
 }
 .avatar:hover {
-  background-image: url(/static/ha.gif);
+  background-image: url(/static/avatar.png);
 }
 .logo {
   display: block;
