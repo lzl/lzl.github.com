@@ -11,7 +11,9 @@ layout: null
 	<script>
 		var posts = [];
 		{% for post in site.posts %}
+		{% unless post.hidden %}
 		posts.push("{{ post.url }}");
+		{% endunless %}
 		{% endfor %}
 
 		document.write("<meta http-equiv=\"refresh\" content=\"1;url=");

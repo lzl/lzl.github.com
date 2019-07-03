@@ -10,10 +10,12 @@ title: LZL
 <hr />
 
 {% for post in site.categories.note %}
+{% unless post.hidden %}
 <div class="card">
   <a href="{{ post.url }}"><p class="title">{{ post.title }}</p></a>
   <p>{{ post.summary }}</p>
 </div>
+{% endunless %}
 {% endfor %}
 
 <small>完</small>
