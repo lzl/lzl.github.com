@@ -3,6 +3,7 @@ layout: single
 title: 掌握 Meteor 的经典模式后对你来说意味着什么
 summary: 高效地将你的逻辑转化为工具，且有可能为他人所用。
 category: note
+hidden: true
 ---
 
 Meteor 的经典模式指 Meteor 1.3 之前的版本，比如 1.0 版本。

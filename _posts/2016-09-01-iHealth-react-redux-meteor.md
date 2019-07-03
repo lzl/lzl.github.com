@@ -3,6 +3,7 @@ layout: single
 title: iHealth 团队的最佳实践
 summary: 昨晚（8月31日周三）我去清华那里听了一场由毛豆网组织的技术讲座，题为《硅谷最新的 React/Redux 和 Meteor 共存之道》。
 category: note
+hidden: true
 ---
 
 昨晚（8月31日周三）我去清华那里听了一场由毛豆网组织的技术讲座，题为《硅谷最新的 React/Redux 和 Meteor 共存之道》。

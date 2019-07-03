@@ -3,6 +3,7 @@ layout: single
 title: 如何学习 Meteor
 summary: 上周说过，现在对 Meteor 初学者来说是收割的季节，也正因此，学习过程中非常容易抓瞎 —— 资源太多到底从何入手。
 category: note
+hidden: true
 ---
 
 上周说过，现在对 Meteor 初学者来说是收割的季节，也正因此，学习过程中非常容易抓瞎 —— 资源太多到底从何入手。

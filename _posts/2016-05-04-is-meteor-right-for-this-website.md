@@ -3,6 +3,7 @@ layout: single
 title: 使用 Meteor 可以做出什么样的网站？
 summary: 也可理解为 Meteor 不适用于哪三类网站。
 category: note
+hidden: true
 ---
 
 首先，我们列举一下市面上存在哪些类型的网站。

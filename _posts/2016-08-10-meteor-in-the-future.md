@@ -3,6 +3,7 @@ layout: single
 title: Meteor 的未来模式大致是什么样子？
 summary: 简要回答：更好用的样子。
 category: note
+hidden: true
 ---
 
 昨天提到[我将 Meteor 分为经典模式和未来模式](/note/should-I-learn-meteor.html)，今天说说这未来模式到底是个什么东西。

@@ -3,6 +3,7 @@ layout: single
 title: 了解 Meteor
 summary: 咱慢慢来，先宏观、粗略地了解一下。
 category: note
+hidden: true
 ---
 
 Meteor 的[官方网站](https://www.meteor.com/)将自己描述为 "The JavaScript App Platform"，直译的话，就是使用 JavaScript 编程语言构建应用程序的平台。按照套路，我接下来应该开始解释 JavaScript, App, Platform 的各自含义，我才不呢，那是老师干的事，我要从学生的视角讲一讲我是如何发现、了解 Meteor 的。

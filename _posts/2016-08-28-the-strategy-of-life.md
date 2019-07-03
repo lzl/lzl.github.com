@@ -3,6 +3,7 @@ layout: single
 title: 人生的战略
 summary: 或者说，如何实现财富自由。
 category: note
+hidden: true
 ---
 
 本文是罗辑思维第184期节目《[什么是战略](http://v.youku.com/v_show/id_XMTY5OTQxMDQ4MA==.html)》的观后总结。

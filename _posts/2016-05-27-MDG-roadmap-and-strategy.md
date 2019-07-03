@@ -3,6 +3,7 @@ layout: single
 title: Meteor 团队的产品线及战略转变
 summary: Meteor 团队把整件事看得很透，它先以技术创新打开小白开发者市场，再以兼容生态的方式吸收专业开发者市场，当他们对 Meteor 产生了依赖，就能从 Galaxy 和 Support 上持续收钱了。
 category: note
+hidden: true
 ---
 
 本周一，Meteor 团队释出上个月底 Customer Day 的新视频，题为 [Product Roadmap and Strategy](https://www.youtube.com/watch?v=tPAma8RKnMc)，由联合创始人 Matt DeBergalis 演讲。

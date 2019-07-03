@@ -3,6 +3,7 @@ layout: single
 title: 面向小白开发者的 Meteor
 summary: Meteor 允许使用者以最小知识量起步上路。
 category: note
+hidden: true
 ---
 
 今天的对象是小白开发者，明天则是[专业开发者](/note/meteor-for-professional.html)。

@@ -3,6 +3,7 @@ layout: single
 title: Meteor 创始人眼中的计算终端发展简史
 summary: 官方回答 Meteor 从哪来。
 category: note
+hidden: true
 ---
 
 [一周前](/note/website-history.html)，我从网站开发的技术发展这一角度讲明 Meteor 旨在帮助我们编写出应运时代潮流的网站。今天，我试着转述 Meteor 创始人之一 Geoff Schmidt 眼中的计算终端发展简史。对比着看，也可以看出一个人看待事物的角度基本决定了他做事的格局。

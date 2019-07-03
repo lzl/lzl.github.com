@@ -3,6 +3,7 @@ layout: single
 title: 有哪些使用 Meteor 实现的商业网站？
 summary: 昨天说开源项目，今天说商业网站。
 category: note
+hidden: true
 ---
 
 昨天说[开源项目](/note/OSS-by-meteor.html)，今天说商业网站。

@@ -3,6 +3,7 @@ layout: single
 title: 谁值得订阅『两个圆点一条直线』
 summary: 这里只是提供一种可能性供订阅者参考。
 category: note
+hidden: true
 ---
 
 首先，已然订阅者，你做对了，我会将爱嵌入字节以回报你的信任。

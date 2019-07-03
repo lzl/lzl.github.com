@@ -3,6 +3,7 @@ layout: single
 title: Meteor 的开放之路
 summary: Meteor 必须走向开放之路，摆脱早期观察者留下的封闭孤岛的印象。
 category: note
+hidden: true
 ---
 
 我说过，Meteor 特别[适合小白开发者](/note/meteor-for-newbie.html)上手学习，允许使用者以最小知识量起步上路。为此，Meteor 提供了前后端一整套方案，并且有详细的入门教程，以及更进一步的指南手册，只要英语阅读能力过关，自学不会有障碍。即便有，大可以联系我，我尽力回答。

@@ -3,6 +3,7 @@ layout: single
 title: Meteor 的使命
 summary: 帮助更多的人写出更好的软件。
 category: note
+hidden: true
 ---
 
 Meteor 官网有[一个页面](https://www.meteor.com/about/project)专门表述自己的使命。我先写出我个人的理解和感受，再在下面附上原文。

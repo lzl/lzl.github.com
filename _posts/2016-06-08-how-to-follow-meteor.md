@@ -3,6 +3,7 @@ layout: single
 title: 如何跟上 Meteor
 summary: 你只需要一个链接。
 category: note
+hidden: true
 ---
 
 事物是运动的，Meteor 也不例外，预备知识用来起步，途中还要时常加油才行。

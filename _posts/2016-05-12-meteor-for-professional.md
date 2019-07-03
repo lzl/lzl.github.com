@@ -3,6 +3,7 @@ layout: single
 title: 面向专业开发者的 Meteor
 summary: 我再三邀请专业开发者团队对 Meteor 重新进行审视与评估。
 category: note
+hidden: true
 ---
 
 昨天是[小白开发者](/note/meteor-for-newbie.html)，今天说说 Meteor 如何面向专业开发者。
