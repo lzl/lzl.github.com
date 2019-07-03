@@ -49,15 +49,17 @@ ul, ol {
 }
 /*! author-marks.css via http://mattgemmell.com/2013/05/16/author-marks/ */
 strong {
-  padding: 0 2px;
   font-weight: normal;
-  border-radius: 4px;
-  border: 1px solid #FF851B;
+  text-shadow:
+    -3px 0px 3px yellow,
+     3px 0px 3px yellow,
+     6px 0px 6px yellow,
+    -6px 0px 6px yellow;
 }
 blockquote {
   border-width: 0 0 0 1px;
   border-style: solid;
-  border-color: #FF851B;
+  border-color: #333;
   margin: 0;
   padding: 0 0 0 1rem;
 }
