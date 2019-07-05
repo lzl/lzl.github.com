@@ -101,6 +101,7 @@ hr {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  transition-duration: .1s;
 }
 .button:visited {
   color: #0074D9;
