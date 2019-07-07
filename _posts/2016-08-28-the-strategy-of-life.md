@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 人生的战略
 summary: 或者说，如何实现财富自由。
 category: note

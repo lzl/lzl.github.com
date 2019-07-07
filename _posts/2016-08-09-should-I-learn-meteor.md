@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 如今 Meteor 是否还值得学习使用？
 summary: 简要回答：值得，没有比现在更值得的了。
 category: note

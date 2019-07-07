@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 隔离
 summary: 对于打破隔离，我有一点建议。
 category: note

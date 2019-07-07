@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 了解 Meteor
 summary: 咱慢慢来，先宏观、粗略地了解一下。
 category: note

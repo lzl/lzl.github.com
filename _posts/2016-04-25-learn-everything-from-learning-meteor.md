@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 两个圆点一条直线
 summary: 我开通了微信公众号，这是第一篇开题。
 category: note

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: Meteor 的使命
 summary: 帮助更多的人写出更好的软件。
 category: note

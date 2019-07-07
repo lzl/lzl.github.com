@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: Meteor 的开放之路
 summary: Meteor 必须走向开放之路，摆脱早期观察者留下的封闭孤岛的印象。
 category: note

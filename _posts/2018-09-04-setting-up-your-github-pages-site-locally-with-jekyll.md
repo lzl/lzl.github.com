@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 在新机器上配置 Jekyll 并发布至 GitHub Page
 summary: 又是时隔两年，我再次想起我还有一个个人网站(博客)。
 category: note

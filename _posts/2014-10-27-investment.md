@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 投资
 summary: 从出生呱呱坠地那一刻至今日阅读本文这一秒发生的所有事情暂且放在一边，想象自己焕然一新，和我一起面向未来，聊一聊如何投资。
 category: note

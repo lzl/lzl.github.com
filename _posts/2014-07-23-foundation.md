@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 地基
 summary: 观察对面工地的施工情况，让我思考并联想到学习与情感。
 category: note

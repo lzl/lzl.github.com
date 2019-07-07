@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 有哪些使用 Meteor 实现的商业网站？
 summary: 昨天说开源项目，今天说商业网站。
 category: note

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: Meteor 的未来模式大致是什么样子？
 summary: 简要回答：更好用的样子。
 category: note

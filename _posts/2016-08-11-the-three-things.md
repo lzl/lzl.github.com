@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 什么值得买？
 summary: 哪三类事物值得用我们的​金钱、时间、精力去置换？
 category: note

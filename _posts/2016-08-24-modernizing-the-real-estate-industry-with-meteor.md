@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 对话 Qualia 创始人
 summary: Qualia 创始人分享了团队使用 Meteor 的感受，以及为什么选择 Meteor 后可通过提升开发效率、快速构建原型和响应式应用来挑战现有市场。
 category: note

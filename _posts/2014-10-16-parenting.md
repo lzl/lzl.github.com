@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 亲子
 summary: 亲子关系是一个人在成长过程中所受影响最深远的环境。
 category: note

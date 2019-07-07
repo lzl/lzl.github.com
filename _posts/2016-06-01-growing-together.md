@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 把握住共同成长的机会
 summary: 时而埋头收割，时而瞭望远方。
 category: note

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 向后兼容
 summary: 你可以将向后兼容这一概念结合至你的专业领域，看看有没有什么新发现。
 category: note

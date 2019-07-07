@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 瑟谷传奇
 redirect_from: /sudbury-valley-school.html
 category: article

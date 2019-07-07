@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 使用 Meteor 实现的开源项目有哪些？
 summary: 今天说开源项目，明天说商业网站。
 category: note

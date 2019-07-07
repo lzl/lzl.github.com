@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 环境
 summary: 教育即环境。最好的教育是创造并维持一个有益于学习的环境。环境塑造人，不显山露水，犹如滴灌般将我们或栽培或腐蚀。
 category: note

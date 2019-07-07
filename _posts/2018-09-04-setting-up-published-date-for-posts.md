@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 为文章设定精确的发布时间
 summary: 按格式 YYYY-MM-DD HH:MM:SS +/-TTTT 加一行设定即可。
 date: 2018-09-04 14:41:00 +0800
@@ -14,7 +14,7 @@ category: note
 
 ```
 ---
-layout: single
+layout: cover
 title: 为文章设定精确的发布时间
 summary: 按格式 YYYY-MM-DD HH:MM:SS +/-TTTT 加一行设定即可。
 date: 2018-09-04 14:41:00 +0800
@@ -22,7 +22,7 @@ category: note
 ---
 ```
 
-`layout` 指布局样式，可以理解为博客主题，这里的 [`single`](https://github.com/lzl/lzl.github.com/blob/master/_layouts/single.html) 对应我自己写的样式。
+`layout` 指布局样式，可以理解为博客主题，这里的 [`cover`](https://github.com/lzl/lzl.github.com/blob/master/_layouts/cover.html) 对应我自己写的样式。
 
 `title` 文章标题。
 

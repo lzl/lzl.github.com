@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 面向小白开发者的 Meteor
 summary: Meteor 允许使用者以最小知识量起步上路。
 category: note

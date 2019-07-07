@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: Meteor 创始人眼中的计算终端发展简史
 summary: 官方回答 Meteor 从哪来。
 category: note

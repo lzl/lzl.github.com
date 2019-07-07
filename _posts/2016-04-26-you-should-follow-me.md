@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 谁值得订阅『两个圆点一条直线』
 summary: 这里只是提供一种可能性供订阅者参考。
 category: note

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 使用 Meteor 可以做出什么样的网站？
 summary: 也可理解为 Meteor 不适用于哪三类网站。
 category: note

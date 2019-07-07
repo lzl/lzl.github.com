@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 如何跟上 Meteor
 summary: 你只需要一个链接。
 category: note

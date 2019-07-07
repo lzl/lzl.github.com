@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 分心
 summary: 人们的普遍共识是专心非常重要，应极力避免分心，在我看来不然。
 category: note

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 我眼中的网站发展简史
 summary: 这里只从两个对比角度说一说我眼中的网站发展史。
 category: note

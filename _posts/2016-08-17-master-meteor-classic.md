@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 掌握 Meteor 的经典模式后对你来说意味着什么
 summary: 高效地将你的逻辑转化为工具，且有可能为他人所用。
 category: note

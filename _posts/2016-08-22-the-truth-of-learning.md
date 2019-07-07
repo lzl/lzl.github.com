@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cover
 title: 学习的真相
 summary: 怎么样成为一个高手？
 category: note
