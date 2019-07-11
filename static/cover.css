@@ -1,6 +1,9 @@
 :root {
 	--type-base: 18px;
 	--width-base: 500px;
+	--color-text: #333;
+	--color-background: #fff;
+	--color-link: #0074d9;
 }
 @media (min-width: 50em) {
 	:root {
@@ -14,12 +17,20 @@
 		--width-base: 750px;
 	}
 }
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text: #fff;
+		--color-background: #333;
+		--color-link: #ff851b;
+	}
+}
 html {
 	font-size: var(--type-base);
 }
 body {
 	font-family: menlo, tahoma, 'Hiragino Sans GB', 'STHeiti', 'WenQuanYi Micro Hei', \5FAE\8F6F\96C5\9ED1, \5B8B\4F53,
 		simsun, sans-serif;
+	background-color: var(--color-background);
 	line-height: 1.5rem;
 	margin: 1rem;
 }
@@ -30,14 +41,14 @@ header {
 article {
 	max-width: var(--width-base);
 	margin: auto;
-	color: #333;
+	color: var(--color-text);
 	line-height: 1.8rem;
 }
 article a {
-	color: #0074d9;
+	color: var(--color-link);
 }
 article a:visited {
-	color: #333;
+	color: var(--color-text);
 }
 article footer {
 	text-align: right;
@@ -53,7 +64,7 @@ p {
 	font-size: 1rem;
 }
 h1 {
-	color: #333;
+	color: var(--color-text);
 	font-weight: bold;
 	text-align: center;
 	letter-spacing: 2px;
@@ -65,12 +76,28 @@ ol {
 }
 strong {
 	font-weight: normal;
-	text-shadow: -3px 0px 3px yellow, 3px 0px 3px yellow, 6px 0px 6px yellow, -6px 0px 6px yellow;
+	/* text-shadow: -3px 0px 3px yellow, 3px 0px 3px yellow, 6px 0px 6px yellow, -6px 0px 6px yellow; */
+	border-radius: 1em 0 1em 0;
+	text-shadow: 1px 1px 1px #fff;
+	background-image: linear-gradient(
+		-100deg,
+		rgba(255, 250, 150, 0.15),
+		rgba(255, 250, 150, 0.8) 100%,
+		rgba(255, 250, 150, 0.25)
+	);
+}
+@media (prefers-color-scheme: dark) {
+	strong {
+		border-radius: 0 0 10px 10px;
+		text-shadow: none;
+		background-image: none;
+		background: linear-gradient(0deg, rgba(255, 255, 0, 0.4) 50%, transparent 50%);
+	}
 }
 blockquote {
 	border-width: 0 0 0 1px;
 	border-style: solid;
-	border-color: #333;
+	color: var(--color-text);
 	margin: 0;
 	padding: 0 0 0 1rem;
 }
